@@ -53,4 +53,8 @@ final class SignPresenter extends Nette\Application\UI\Presenter
 	{
 		$this->getUser()->logout();
 	}
+	
+	public function actionIn($reqId): void
+        {
+        }
 }
